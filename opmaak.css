@@ -1,0 +1,57 @@
+/* Algemene instellingen voor het hele document */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Algemene opmaak voor titels */
+h1, h2 {
+  color: #002A3A; /* Donkerblauw voor titels */
+  font-weight: bold;
+}
+
+/* Specifieke stijl voor links */
+a {
+  color: #00405A; /* Blauw-groene kleur */
+  text-decoration: none;
+}
+
+/* Hover effect voor links */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Algemene paragrafen */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Stijl voor de hoofdpagina's (homepagina, tekstpagina, etc.) */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Knoppen zoals de terug-knop */
+button {
+  padding: 10px 15px;
+  background-color: #00405A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #002A3A;
+}
